@@ -9,6 +9,7 @@ container.setAttribute('class', 'container');
 app.appendChild(logo);
 app.appendChild(container);
 
+// Create a request variable and assign a new XMLHttpRequest object to it.
 let request = new XMLHttpRequest();
 request.open('GET', 'https://ghibliapi.herokuapp.com/films', true);
 request.onload = function () {
